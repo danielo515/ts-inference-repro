@@ -1,0 +1,19 @@
+{
+  "name": "@ts-inference/app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@ts-inference/common": "workspace:*",
+    "@ai-sdk/react": "^0.0.35",
+    "ai": "5.0.44",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "extends": "@ts-inference/typescript-config/base.json",
+  "include": ["."],
+  "exclude": ["node_modules", "dist"],
+  "compilerOptions": {
+    "lib": ["ESNext", "DOM"],
+    "rootDir": "./src",
+    "target": "ESNext",
+    "outDir": "./dist",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}
