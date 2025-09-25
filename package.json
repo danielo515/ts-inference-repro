@@ -5,7 +5,8 @@
   "version": "0.0.0",
   "packageManager": "pnpm@10.7.0",
   "scripts": {
-    "typecheck": "pnpm -r run typecheck"
+    "typecheck": "pnpm -r run typecheck",
+    "build:common": "pnpm --filter=@ts-inference/common run build"
   },
   "devDependencies": {
     "@types/react": "^19.1.13",

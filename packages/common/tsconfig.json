@@ -7,6 +7,9 @@
     "rootDir": "./src",
     "target": "ESNext",
     "outDir": "./dist",
+    "strict": true,
+    "moduleResolution": "NodeNext",
+    "module": "NodeNext",
     "paths": {
       "@/*": ["./src/*"]
     }

@@ -139,6 +139,8 @@ export const DataParts = {
   clearSearchContext: ToolClearSearchContextParamsSchema,
 } as const;
 
+export type DataParts = typeof DataParts;
+
 export type PlanningToolSet = {
   applyViewFilters: Tool<
     ToolApplyViewFiltersParams,

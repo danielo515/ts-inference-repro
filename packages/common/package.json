@@ -12,7 +12,7 @@
   },
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "typecheck": "tsc -p tsconfig.json --noEmit"
+    "check": "tsc -p tsconfig.json --noEmit"
   },
   "dependencies": {
     "ai": "5.0.44",
